@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteCreerUnModele]">
+  <test thread-count="5" name="TestCreerUnModele(failed)">
+    <classes>
+      <class name="testcases.TestSupprimeCorbeille">
+        <methods>
+          <include name="deleteCorbeille"/>
+          <include name="openBrowser"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- testcases.TestSupprimeCorbeille -->
+    </classes>
+  </test> <!-- TestCreerUnModele(failed) -->
+</suite> <!-- Failed suite [SuiteCreerUnModele] -->

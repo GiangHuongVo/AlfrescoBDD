@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="SuiteCreerUnModele">
+  <test thread-count="5" name="TestCreerUnModele">
+	  <classes>      
+     <!--  <class name="testcases.TestCreerUnModele"/>-->
+      <!-- Postcondition -->
+     <!--  <class name="testcases.TestSupprimerModele"/>-->
+      <!-- <class name="testcases.TestModifierTag"/>-->
+      <class name="testcases.TestSupprimeCorbeille"/>
+    </classes>
+  </test> <!-- TestCreerUnModele -->
+</suite> <!-- SuiteCreerUnModele -->

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-04T13:18:08 EDT" name="Surefire suite" finished-at="2023-10-04T13:19:55 EDT" duration-ms="107280">
+    <groups>
+    </groups>
+    <test started-at="2023-10-04T13:18:08 EDT" name="Surefire test" finished-at="2023-10-04T13:19:55 EDT" duration-ms="107280">
+      <class name="testcases.TestCreerUnModele">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.TestCreerUnModele@4567f35d]" started-at="2023-10-04T13:18:09 EDT" name="openBrowser" finished-at="2023-10-04T13:18:28 EDT" duration-ms="19621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testCreerUnModele(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCreerUnModele@4567f35d]" started-at="2023-10-04T13:18:28 EDT" name="testCreerUnModele" data-provider="testData" finished-at="2023-10-04T13:18:33 EDT" duration-ms="4516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreerUnModele -->
+        <test-method signature="testCreerUnModele(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCreerUnModele@4567f35d]" started-at="2023-10-04T13:18:33 EDT" name="testCreerUnModele" data-provider="testData" finished-at="2023-10-04T13:18:37 EDT" duration-ms="4530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreerUnModele -->
+        <test-method signature="testCreerUnModele(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCreerUnModele@4567f35d]" started-at="2023-10-04T13:18:37 EDT" name="testCreerUnModele" data-provider="testData" finished-at="2023-10-04T13:18:42 EDT" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreerUnModele -->
+        <test-method signature="testCreerUnModele(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCreerUnModele@4567f35d]" started-at="2023-10-04T13:18:42 EDT" name="testCreerUnModele" data-provider="testData" finished-at="2023-10-04T13:18:46 EDT" duration-ms="4469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreerUnModele -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testcases.TestCreerUnModele@4567f35d]" started-at="2023-10-04T13:18:46 EDT" name="closedBrowser" finished-at="2023-10-04T13:18:51 EDT" duration-ms="4434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testcases.TestCreerUnModele -->
+      <class name="testcases.TestSupprimerModele">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.TestSupprimerModele@6356695f]" started-at="2023-10-04T13:19:14 EDT" name="openBrowser" finished-at="2023-10-04T13:19:34 EDT" duration-ms="19273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="deleteModele(java.lang.String)[pri:0, instance:testcases.TestSupprimerModele@6356695f]" started-at="2023-10-04T13:19:34 EDT" name="deleteModele" data-provider="testDataCol" finished-at="2023-10-04T13:19:38 EDT" duration-ms="4246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteModele -->
+        <test-method signature="deleteModele(java.lang.String)[pri:0, instance:testcases.TestSupprimerModele@6356695f]" started-at="2023-10-04T13:19:38 EDT" name="deleteModele" data-provider="testDataCol" finished-at="2023-10-04T13:19:42 EDT" duration-ms="4260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteModele -->
+        <test-method signature="deleteModele(java.lang.String)[pri:0, instance:testcases.TestSupprimerModele@6356695f]" started-at="2023-10-04T13:19:42 EDT" name="deleteModele" data-provider="testDataCol" finished-at="2023-10-04T13:19:46 EDT" duration-ms="4381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteModele -->
+        <test-method signature="deleteModele(java.lang.String)[pri:0, instance:testcases.TestSupprimerModele@6356695f]" started-at="2023-10-04T13:19:46 EDT" name="deleteModele" data-provider="testDataCol" finished-at="2023-10-04T13:19:51 EDT" duration-ms="4354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteModele -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testcases.TestSupprimerModele@6356695f]" started-at="2023-10-04T13:19:51 EDT" name="closedBrowser" finished-at="2023-10-04T13:19:55 EDT" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testcases.TestSupprimerModele -->
+      <class name="testcases.TestCallData">
+        <test-method signature="lireData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireData" data-provider="testData" finished-at="2023-10-04T13:18:09 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireData -->
+        <test-method signature="lireData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireData" data-provider="testData" finished-at="2023-10-04T13:18:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireData -->
+        <test-method signature="lireData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireData" data-provider="testData" finished-at="2023-10-04T13:18:09 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireData -->
+        <test-method signature="lireData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireData" data-provider="testData" finished-at="2023-10-04T13:18:09 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestExcel4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FromEclipe4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DataPool4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireData -->
+        <test-method signature="lireDataCol(java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireDataCol" data-provider="testDataCol" finished-at="2023-10-04T13:18:09 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireDataCol -->
+        <test-method signature="lireDataCol(java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireDataCol" data-provider="testDataCol" finished-at="2023-10-04T13:18:09 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireDataCol -->
+        <test-method signature="lireDataCol(java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireDataCol" data-provider="testDataCol" finished-at="2023-10-04T13:18:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireDataCol -->
+        <test-method signature="lireDataCol(java.lang.String)[pri:0, instance:testcases.TestCallData@48ae9b55]" started-at="2023-10-04T13:18:09 EDT" name="lireDataCol" data-provider="testDataCol" finished-at="2023-10-04T13:18:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataPool4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lireDataCol -->
+      </class> <!-- testcases.TestCallData -->
+      <class name="testcases.TestLoginLogout">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.TestLoginLogout@5ffead27]" started-at="2023-10-04T13:18:51 EDT" name="openBrowser" finished-at="2023-10-04T13:18:53 EDT" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testcases.TestLoginLogout@5ffead27]" started-at="2023-10-04T13:18:53 EDT" name="login" finished-at="2023-10-04T13:18:57 EDT" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ouvrirOutilAdmin()[pri:0, instance:testcases.TestLoginLogout@5ffead27]" started-at="2023-10-04T13:18:57 EDT" name="ouvrirOutilAdmin" finished-at="2023-10-04T13:19:10 EDT" duration-ms="12366" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Test_Web_Driver']/ancestor::tr/td//span[text()='Actions']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d51432b48f651ad57db520a3fa12375, findElement {using=xpath, value=//span[text()='Test_Web_Driver']/ancestor::tr/td//span[text()='Actions']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\hgian\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52464/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d51432b48f651ad57db520a3fa12375]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Test_Web_Driver']/ancestor::tr/td//span[text()='Actions']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d51432b48f651ad57db520a3fa12375, findElement {using=xpath, value=//span[text()='Test_Web_Driver']/ancestor::tr/td//span[text()='Actions']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\hgian\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52464/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d51432b48f651ad57db520a3fa12375
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at pageObject.GestionModelePage.supprimeUnModele(GestionModelePage.java:39)
+at testcases.TestLoginLogout.ouvrirOutilAdmin(TestLoginLogout.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ouvrirOutilAdmin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcases.TestLoginLogout@5ffead27]" started-at="2023-10-04T13:19:10 EDT" name="logout" finished-at="2023-10-04T13:19:14 EDT" duration-ms="4138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testcases.TestLoginLogout@5ffead27]" started-at="2023-10-04T13:19:14 EDT" name="closedBrowser" finished-at="2023-10-04T13:19:14 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testcases.TestLoginLogout -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
